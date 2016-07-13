@@ -3,11 +3,11 @@ simple functions for c/cpp to test.
 
 
 
- * readBinGZ
+## readBinGZ
 read large (>4Gb) binary gz files of unknown size 
 
 test of dat with 755925680 doubles with bufSize 100000 doubles
-
+```
 > time ./readBinGz -f /home/albrecht/gitfuck/test/ceu8gl2.glf.gz 
 
 
@@ -36,11 +36,12 @@ readGZbin3		[ALL done] walltime used =  24.00 sec
 read 755925680 sites
 
 readGZbin4		[ALL done] walltime used =  24.00 sec
-
+```
 
 
 
 Smaller file (<4GB)
+```
 > time ./readBinGz -f /home/albrecht/gitfuck/test/tmpMulti.glf.gz
 
 readGZbin		[ALL done] walltime used =  9.00 sec
@@ -54,7 +55,7 @@ read 168909600 sites
 
 readGZbin4		[ALL done] walltime used =  11.00 sec
 read 168909600 sites
-
+```
 
 
 
