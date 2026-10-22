@@ -1,0 +1,28 @@
+500 	the number of individuals
+20	the number of SNPs
+0	the number of environmental factors
+1	the starting number of risk sets
+14	the maximum allowed risk sets
+0	the minimum allowed risk sets
+4	the maximum allowed active parameters
+1	the minimum allowed active parameters
+0.5	the prior for the number of active parameters ~geo(PriorActive)
+0.5	the prior for the number of risk sets ~geo(PriorRiskSet)
+200	the maximun value for the standard diviation
+1	the number kappa will be mulitplied with
+0	0: the imperical averge will be used 1: the midrange will be used
+10	the starting value for the SD
+1	1:prints the risk sets, 0:does no
+100000	the number of iterations
+0	the number of iterations discarded (the burn in)
+100	the tinning rate
+5	the ratio for updating the mean
+0	0: the trait is normally distributed. 1: the trait is binary
+0      the  number of permutations
+1	1: risksets have a higher mean than the none risk set
+0	the number of adjustment factors
+0	range min 
+0	range max: if range min =0 and range max = 0 then the range of the distribution is used
+0.9	this fraction of the individual used to calculate the range. eg. if 0.9 then the 5% of both tails are removed
+0 	0: use frequencies for prios for missing genotypes. 1: use custom priors 
+0.33 	the cutoff for accepting a infered genotype. 
